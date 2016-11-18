@@ -48,7 +48,6 @@ public class WriteArticleRunable implements Runnable {
 							System.out.println(Thread.currentThread().getName() + ": 我睡了，你们写吧！");
 							Thread.sleep(1000);
 						} catch (InterruptedException e) {
-							// TODO Auto-generated catch block
 							e.printStackTrace();
 						}
 					}

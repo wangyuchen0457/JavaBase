@@ -11,7 +11,5 @@ public class WriteArticleDemo {
 		Thread wanglaowu = new Thread(war2, "wanglaowu");
 		zhangsan.start();
 		wanglaowu.start();
-
 	}
-
 }
